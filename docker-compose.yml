@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  clockhole:
+    build:
+      context: ./tychedight
+      dockerfile: Dockerfile
+    labels:
+      hollow.heart.albion: "The sample for diverting datetime value during container build as a dynamic argument in othe command."
+    tty: true
